@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PermissionLib.2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+
+        <!-- Use your custom colors -->
+        <item name="colorPrimary">@color/permission_tint_color</item>
+        <item name="colorPrimaryVariant">@color/permission_tint_color</item>
+        <item name="colorOnPrimary">@color/permission_text_color</item>
+        <item name="colorSecondary">@color/permission_default_dialog_bg</item>
+
+        <item name="colorOnSecondary">@color/permission_text_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
