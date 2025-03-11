@@ -43,6 +43,7 @@ Use **PermissionLib** to request runtime permissions within your activity:
                         }
                     });
 ```
+![image](https://github.com/user-attachments/assets/0a69fd4a-6f00-4ccb-9162-8d2a5dbcfab2)
 
 ### Understanding the Callback
 - **allGranted**: `true` if all requested permissions are granted, `false` otherwise.
@@ -91,6 +92,14 @@ permissionManager.onForwardToSettings((deniedPermissions, openSettings) -> {
     }
 });
 ```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3faf4de0-8887-4683-b169-40be2be2098e" width="30%">
+  <img src="https://github.com/user-attachments/assets/3f22a655-3de8-4141-a1f8-ba5364905938" width="30%">
+  <img src="https://github.com/user-attachments/assets/54f825df-9d3d-44b0-bd94-7ee849be6604" width="30%">
+</p>
+
+
+
 
 ### Explanation:
 - `onForwardToSettings` is a callback triggered when permissions are **permanently denied** and can no longer be requested.
